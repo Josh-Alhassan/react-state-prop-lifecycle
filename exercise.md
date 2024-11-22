@@ -20,3 +20,13 @@ Create a component named Counter that:
 - Create an array of user objects (e.g., `{ name, age, email }`).
 
 - Render multiple UserCard components by passing data to them as props.
+
+## Exercise 3: Lifecycle and API Call
+
+1. Create a class component named RandomJoke that:
+
+- Fetches a random joke from an API (e.g., Official Joke API) when the component is mounted.
+- Displays the joke (both the setup and punchline).
+- Includes a button to fetch a new joke by triggering an update.
+
+2. Add a componentWillUnmount method to log a message when the component is removed from the DOM.

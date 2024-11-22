@@ -1,7 +1,6 @@
 import UserCard from "./UserCard";
 import users from "./utilities/user";
 
-console.log(user.name);
 export default function () {
   return (
     <>
