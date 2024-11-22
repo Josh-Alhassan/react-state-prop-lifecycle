@@ -1,3 +1,4 @@
+import RandomJoke from "./RandomJoke";
 import UserCard from "./UserCard";
 import UserList from "./UserList";
 import "./styles.css";
@@ -10,6 +11,8 @@ export default function App() {
       <UserCard name="Joshua" age="27" email="thealhassanjoshua@gmail.com" />
 
       <UserList />
+
+      <RandomJoke />
     </div>
   );
 }
