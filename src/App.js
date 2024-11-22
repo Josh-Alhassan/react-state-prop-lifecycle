@@ -1,3 +1,4 @@
+import UserCard from "./UserCard";
 import "./styles.css";
 import { useState } from "react";
 
@@ -5,6 +6,7 @@ export default function App() {
   return (
     <div className="App">
       <Counter />
+      <UserCard name="Joshua" age="27" email="thealhassanjoshua@gmail.com" />
     </div>
   );
 }
