@@ -12,14 +12,17 @@ export default function App() {
 function Counter() {
   const [count, setCount] = useState(0);
 
+  // Handle Increment
   function handleIncrement() {
     setCount((prevState) => prevState + 1);
   }
 
+  // Handle Decrement
   function handleDecrement() {
     setCount((prevState) => (prevState > 0 ? prevState - 1 : 0));
   }
 
+  // Handle Reset
   function handleReset() {
     setCount(0);
   }
