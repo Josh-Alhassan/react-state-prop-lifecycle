@@ -10,12 +10,12 @@ Create a component named Counter that:
 
 ## Exercise 2: Passing Props
 
-1 Create a `UserCard` component that:
+1. Create a `UserCard` component that:
 
 - Accepts `name`, `age`, and `email` as props.
 - Displays the user details in a styled card format.
 
-  2.In a parent component (`UserList`):
+2. In a parent component (`UserList`):
 
 - Create an array of user objects (e.g., `{ name, age, email }`).
 
